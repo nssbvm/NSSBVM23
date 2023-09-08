@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px 20px;
+    padding: 50px 30px;
+}
+
+.img1 {
+    height: 36rem;
+    width: 40rem;
+    margin: 50px 20px;
+    padding: 50px 35px;
+}
+
+.heading {
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;;
+}

@@ -1,0 +1,148 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@400;500&display=swap');
+
+/* Navbar CSS */
+.container-fluid {
+    padding-left: 30px;
+}
+
+.nav-item a {
+    align-items: center;
+    justify-items: center;
+    margin: 2px;
+    padding: 10px;
+    /* color: black; */
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    ;
+    /* font-weight: 700; */
+}
+
+.nav-item a:hover {
+    color: #208793;
+}
+
+.navbar {
+    padding-right: 100px;
+}
+
+.nss-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+/* Home Section */
+.nss-img {
+    height: 100vh;
+    width: 100%;
+}
+
+.dev-footer {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Team Page */
+.team {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-img-top {
+    border-radius: 50%;
+    height: 18rem;
+}
+
+.dev-card-title {
+    color: #208793;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.card-text {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* About Section */
+.mission-container {
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+}
+
+/* Reports section */
+.report-item a {
+    text-decoration: none;
+    /* font-size: large; */
+    font-size: 1.5rem;
+}
+
+/* Press Notes section */
+/* .container {
+    margin: 20px 20px;
+    padding: 50px 30px;
+} */
+
+.img1 {
+    height: 36rem;
+    width: 40rem;
+    margin: 50px 20px;
+    padding: 50px 35px;
+}
+
+.heading {
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+/* Testimonials Section */
+
+.card {
+    margin: 20px;
+    min-width: 1200px;
+    min-height: 370px;
+    opacity: 0.92;
+    transition: all 0.5s ease-out;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text img {
+    width: 15px;
+    margin: -30px 0 0 0;
+}
+
+.card-title {
+    margin: 10px 0 0 10px;
+    font-size: 20px;
+}
+
+.card:hover {
+    opacity: 1;
+    /* transform: scale(1.04);
+    transition: all 0.5s ease-out; */
+}
+
+.card-text {
+    padding-left: 10px;
+}
+
+.nisarg-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #208793;
+    margin: 5px 5px;
+    padding: 30px;
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+}
