@@ -41,6 +41,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.car-img-top {
+    height: 18rem;
+}
 /* Events page */
 .event-title {
     color: #208793
