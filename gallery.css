@@ -18,12 +18,10 @@ body {
 .photo-card {
     background-color: #f1f1f1;
     padding: 20px;
-    box-shadow: 2px 2px 5px 2px rgb(0, 0, 0);
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0,0.2),2px 7px 16px 0px rgba(0,0,0,0.2);
     border-radius: 5px;
-    /* border: 2px solid grey; */
     overflow: hidden;
 }
-
 .photo-card img {
     width: 100%;
     height: auto;
@@ -41,4 +39,37 @@ body {
     justify-content: center;
     width: 83%;
     height: 270px;
+}
+@media (max-width:500px)  {
+    .photo-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .photo-card img{
+        width: 150px;
+    height: auto;
+    }
+    #i9{
+        width: 190px;
+    }
+}
+@media (max-width:280px)  {
+    .photo-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .photo-card img{
+        width: 100px;
+        height: auto;
+    }
+    #i9{
+        width: 130px;
+    }
 }
