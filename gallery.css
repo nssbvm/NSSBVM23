@@ -11,7 +11,7 @@ body {
 
 .photo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 20px;
 }
 
@@ -37,8 +37,7 @@ body {
 #i9{
     padding-top: 0px;
     justify-content: center;
-    width: 83%;
-    height: 270px;
+    height: 405px;
 }
 @media (max-width:500px)  {
     .photo-grid{
@@ -66,7 +65,7 @@ body {
         
     }
     .photo-card img{
-        width: 100px;
+        width: 150px;
         height: auto;
     }
     #i9{
