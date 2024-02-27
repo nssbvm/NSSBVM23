@@ -4,7 +4,7 @@ body {
 
 .photo-section {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 5rem auto;
     padding: 20px;
 }
 
@@ -46,13 +46,25 @@ body {
         align-items: center;
         
     }
+    .photo-card{
+        width: 20rem;
+    }
     .photo-card img{
-        width: 150px;
-    height: auto;
+        width: 17.5rem;
+        height: auto;
     }
-    #i9{
-        width: 190px;
-    }
+    /* #i9{
+        width: 18rem;
+    } */
+}
+@media (max-width:340px) {
+   .photo-card{
+       width: 16rem;
+   }
+   .photo-card img{
+    width: 13.5rem;
+   }
+    
 }
 @media (max-width:280px)  {
     .photo-grid{
@@ -63,11 +75,14 @@ body {
         
         
     }
+    .photo-card{
+        width: 13rem;
+    }
     .photo-card img{
-        width: 150px;
+        width: 10.5rem;
         height: auto;
     }
-    #i9{
+    /* #i9{
         width: 130px;
     }
-}
+} */
